@@ -71,12 +71,15 @@ src/
 ├── index.css
 └── main.jsx
 
+```
 
-Live Preview
+## Live Preview
 
 CineScope:
 https://cinescope-teal.vercel.app/
- Author
+ 
+ 
+## Author
 
 Sultana Jahan Lipa
 
