@@ -1,16 +1,85 @@
-# React + Vite
+# 🎬 CineScope
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineScope is a responsive movie explorer web application built with React.js. 
+It allows users to browse TV shows, search for specific titles, and view detailed 
+information through an interactive modal.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://cinescope-teal.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 **Home Page**
+  - Responsive navigation bar
+  - Hero banner with movie-focused design
+  - Call-to-action to explore movies
+  - Footer with application information
 
-## Expanding the ESLint configuration
+- 🎬 **Movie/Show Listing**
+  - Fetches shows from the TVMaze API
+  - Displays shows in a responsive grid
+  - Reusable movie/show cards
+  - Poster, title, release year, and rating information
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Search**
+  - Search shows by title
+  - Dynamically updates the displayed results
+  - Uses the TVMaze search API
+
+- 📋 **Show Details**
+  - Interactive details modal
+  - Show poster
+  - Title
+  - Rating
+  - Release information
+  - Genres
+  - Summary/overview
+  - Close button
+
+- 📱 **Responsive Design**
+  - Mobile-friendly layout
+  - Tablet and desktop support
+  - Responsive movie grid and navigation
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **TVMaze API**
+- **Vite**
+- **React Router**
+- **Git & GitHub**
+- **Vercel**
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── Components/
+├── Hooks/
+├── Layouts/
+├── Pages/
+├── Services/
+├── App.jsx
+├── index.css
+└── main.jsx
+
+
+Live Preview
+
+CineScope:
+https://cinescope-teal.vercel.app/
+ Author
+
+Sultana Jahan Lipa
+
+CSE Graduate | React & MERN Stack Developer
+
+GitHub: https://github.com/Sultana247
